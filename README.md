@@ -62,4 +62,7 @@ if you don't understand my explanation above,i have prepared an image in the src
 
 **★Participation**
 
-i understand why the Humanity Protocol does not pay attention to this because currently the community is focusing on phase 1, namely the RWT claim. I hope that in the future the Humanitarian Party will add more **captcha to block bot**
+i understand why the Humanity Protocol does not pay attention to this because currently the community is focusing on pase 1, namely the RWT claim. I hope that in the future the humanity protocol community will add more **captcha to block bot**
+
+
+**I am humanity protocol and ~~not a robot~~**
