@@ -11,16 +11,42 @@ a simple way to claim faucet thp,humanity protocol marathon with simple javascri
 
 **Introduction**
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/noxyid66)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 this auto claim faucet was created to be able to participate in the development of humanity,i found this method protocol myself,yeah Noxyid66
-
 this technique is quite simple but you only need a concole to run the script...
 
 
-**language**
+**Language**
 
 - [Html] - HTML enhanced for web apps!
 - [Javascript] - interactive web apps!
+
+
+**Execution**
+
+> Humanity protocol
+
+now we just need to open the official testnet humanity protocol link.
+then just open the faucet page.we can also use the link below.
+
+` https://faucet.testnet.humanity.org/ `
+
+
+> Dev mode 
+
+for this step we only need to open developers mode or inspect element.
+
+
+> Edit as html
+
+![alt text](https://github.com/noxyid66/unittesting_thp/blob/main/src/humanityprotockol.png?raw=true)
+
+
+
+
+
+
+
 
       setInterval(() => {document.getElementById("req").click();console.log('%cmessage:', 'color: crimson; font-size: 10px; font-style: bold;');console.log("request thp succes send faucet to metamask check!!!");console.log(new Date().toString());}, 65000);     
