@@ -9,7 +9,7 @@ a simple way to claim faucet thp,humanity protocol marathon with simple javascri
 
 ---
 
-**Introduction**
+**★Introduction**
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -17,13 +17,13 @@ this auto claim faucet was created to be able to participate in the development 
 this technique is quite simple but you only need a concole to run the script...
 
 
-**Language**
+**★Language**
 
 - [Html] - HTML enhanced for web apps!
 - [Javascript] - interactive web apps!
 
 
-**Execution**
+**★Execution**
 
 > Humanity protocol
 
@@ -40,13 +40,26 @@ for this step we only need to open developers mode or inspect element.
 
 > Edit as html
 
-![alt text](https://github.com/noxyid66/unittesting_thp/blob/main/src/humanityprotockol.png?raw=true)
+now we just need to edit the html to add an id attribute with a req value in the button tag.
+
+
+      <button id="req" class="button is-primary is-rounded">Request</button>
+
+>Execution dom
+
+and the final step we just need to go to the console to run this script
+
+      setInterval(() => {document.getElementById("req").click();console.log('%cmessage:', 'color: crimson; font-size: 10px; font-style: bold;');console.log("request thp succes send faucet to metamask check!!!");console.log(new Date().toString());}, 65000);
+
+
+**★Notice**
+
+if you don't understand my explanation above,i have prepared an image in the src folder.please remember the program will run smoothly if the window remains open.
 
 
 
 
 
+**★Participation**
 
-
-
-      setInterval(() => {document.getElementById("req").click();console.log('%cmessage:', 'color: crimson; font-size: 10px; font-style: bold;');console.log("request thp succes send faucet to metamask check!!!");console.log(new Date().toString());}, 65000);     
+i understand why the Humanity Protocol does not pay attention to this because currently the community is focusing on phase 1, namely the RWT claim. I hope that in the future the Humanitarian Party will add more **captcha to block bot**
